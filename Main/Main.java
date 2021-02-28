@@ -31,6 +31,10 @@ public class Main {
 			{
 				palabraAdivinar[i]=',';
 			}
+			else if(palabra.toCharArray()[i]=='?')
+			{
+				palabraAdivinar[i]='?';
+			}
 			else
 			{
 			palabraAdivinar[i]='-';
